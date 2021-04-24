@@ -54,7 +54,7 @@ impl PrivateKey {
     /// ```no_run
     /// use jiguang_certification::PrivateKey;
     ///
-    /// let private = PrivateKey::from("./key.key").unwrap();
+    /// let private = PrivateKey::from_file("./key.key").unwrap();
     /// ```
     pub fn from_file<P: AsRef<Path>>(path: P) -> Result<Self, Error> {
         let mut file = match File::open(path) {
