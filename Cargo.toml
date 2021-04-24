@@ -3,8 +3,9 @@ name = "jiguang-certification"
 version = "0.1.0"
 authors = ["EchoLi <Echo_AI@foxmail.com>"]
 edition = "2018"
-description = "JiGuang Certification; SDK 极光认证SDK"
+description = "极光认证登录SDK, JiGuang Certification SDK"
 license = "MIT"
+readme = "README.md"
 repository = "https://github.com/EchoRust/JiGuangCertification"
 keywords = ["jiguang", "certification", "JVerification"]
 
