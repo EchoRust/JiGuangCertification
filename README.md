@@ -19,9 +19,9 @@
 
 ## 添加依赖
 
-```yaml
+```toml
 [dependencies]
-jiguang_certification = "0.1"
+jiguang-certification = "0.1"
 ```
 
 # Example
