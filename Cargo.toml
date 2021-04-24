@@ -1,0 +1,19 @@
+[package]
+name = "jiguang-certification"
+version = "0.1.0"
+authors = ["EchoLi <Echo_AI@foxmail.com>"]
+edition = "2018"
+description = "JiGuang Certification; SDK 极光认证SDK"
+license = "MIT"
+repository = "https://github.com/EchoRust/JiGuangCertification"
+keywords = ["jiguang", "certification", "JVerification"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+base64 = "0.13"
+rsa = "0.4"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
